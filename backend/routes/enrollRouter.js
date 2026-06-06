@@ -8,9 +8,9 @@ import {
 
 const enrollRouter = Router();
 
-/* ==========================
+
    Enrollment Routes
-========================== */
+
 
 // Create Enrollment
 enrollRouter.post("/", addEnrolls);
