@@ -1,8 +1,8 @@
 import studentModel from "../models/student.model.js";
 
-/* =========================
+
    ADD STUDENT
-========================= */
+
 export const addStudent = async (req, res) => {
   try {
     const { name, email, mobile } = req.body;
@@ -47,9 +47,9 @@ export const addStudent = async (req, res) => {
   }
 };
 
-/* =========================
+
    GET ALL STUDENTS
-========================= */
+
 export const getAllStudent = async (req, res) => {
   try {
     const students = await studentModel.find().sort({ createdAt: -1 });
@@ -69,9 +69,9 @@ export const getAllStudent = async (req, res) => {
   }
 };
 
-/* =========================
+
    DELETE STUDENT
-========================= */
+
 export const deleteStudent = async (req, res) => {
   try {
     const { id } = req.params;
