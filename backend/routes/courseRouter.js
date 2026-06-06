@@ -7,9 +7,9 @@ import {
 
 const courseRouter = Router();
 
-/* =========================
+
    Course Routes
-========================= */
+
 
 // Add Course
 courseRouter.post("/", addCourse);
