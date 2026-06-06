@@ -8,7 +8,7 @@ import {
 const studentRouter = Router();
 
 
-   Student Routes
+
 
 
 // Create Student
