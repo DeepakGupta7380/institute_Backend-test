@@ -1,7 +1,7 @@
 import courseModel from "../models/course.model.js";
 
 
-   ADD COURSE
+ 
 
 export const addCourse = async (req, res) => {
   try {
@@ -59,9 +59,9 @@ export const getAllCourse = async (req, res) => {
   }
 };
 
-/* =========================
-   DELETE COURSE
-========================= */
+
+
+
 export const deleteCourse = async (req, res) => {
   try {
     const { id } = req.params;
