@@ -8,7 +8,7 @@ import {
 const courseRouter = Router();
 
 
-   Course Routes
+ 
 
 
 // Add Course
