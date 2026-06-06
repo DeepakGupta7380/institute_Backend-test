@@ -1,8 +1,8 @@
 import courseModel from "../models/course.model.js";
 
-/* =========================
+
    ADD COURSE
-========================= */
+
 export const addCourse = async (req, res) => {
   try {
     const { title, category, fees, duration } = req.body;
