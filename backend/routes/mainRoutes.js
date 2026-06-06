@@ -8,7 +8,7 @@ import analyticsRouter from "./analytics.route.js";
 const mainRouter = Router();
 
 
-   API Routes
+  
 
 
 mainRouter.use("/students", studentRouter);
