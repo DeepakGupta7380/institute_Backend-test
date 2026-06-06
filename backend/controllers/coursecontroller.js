@@ -37,9 +37,8 @@ export const addCourse = async (req, res) => {
   }
 };
 
-/* =========================
-   GET ALL COURSES
-========================= */
+
+  
 export const getAllCourse = async (req, res) => {
   try {
     const courses = await courseModel.find().sort({ createdAt: -1 });
@@ -66,9 +65,9 @@ export const getAllCourse = async (req, res) => {
   }
 };
 
-/* =========================
-   DELETE COURSE
-========================= */
+
+ 
+
 export const deleteCourse = async (req, res) => {
   try {
     const { id } = req.params;
